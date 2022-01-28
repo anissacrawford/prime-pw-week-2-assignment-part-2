@@ -29,7 +29,7 @@ if (number >= 2) {
 // We make a variable called name and set it equal to Dane as a string.
 // We then create a conditional that states if the name variable equals the string 'Mary', we will console.log 'Hi, Mary!'
 // If the name variable is equal to anything other than 'Mary', we will console.log 'How do you do?'
-// We know we already set the name variable equal to 'Dane' so we will console.log 'How do you do?'
+// We know we already set the name variable equal to 'Dane', not 'Mary', so we will console.log 'How do you do?'
 
 //CODE
 /*
@@ -48,7 +48,7 @@ if (name === 'Mary') {
 //We make a variable named secret and do not give it a value. We make a variable named code and give it the number value of 123.
 //We create a conditional that states if the code variable equals 123, then the secret variable will equal the string 'super'
 //and the code variable will be multiplied by the number 2.
-//if the code is greater than the number 250, the secret variable will equal the string 'duper'
+//If the code is greater than the number 250, the secret variable will equal the string 'duper'
 //Since we already set the code variable equal to 123, and we know that if the code variable is equal to 123 then the secret variable is 'super',
 //We will console.log 'super'
 
@@ -150,7 +150,7 @@ if (mix === true) {
 
 /*
 let temp = 40;
-const time = 4;           //FIX this is a constant, not a variable. let time = 4; would make it a variable.
+const time = 4;           //FIX this is a constant, instructions as for two variables. let time = 4; would make it a changeable variable.
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -164,9 +164,9 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
-const minAge = 21;         //FIX this is a constant not a variable. it cannot change. let minAge = 21; would make it a variable.
+const minAge = 21;         //FIX this is a constant not a variable. It cannot change. let minAge = 21; would make it a variable.
 
-if(minAge <= age) {        //FIX the symbol for greater than or equal to is >= 
+if(minAge <= age) {        //FIX the symbol for greater than or equal to is >=
   console.log('no entry');
 } else {
   console.log('enter');
